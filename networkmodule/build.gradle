@@ -86,4 +86,12 @@ dependencies {
     //dagger2
     api rootProject.ext.dependencies["dagger"]
     kapt rootProject.ext.dependencies["dagger-compiler"]
+    //cookie持久化
+//    api rootProject.ext.dependencies["PersistentCookieJar"]
+    //    cookie持久化
+//    implementation 'com.github.franmontiel:PersistentCookieJar:v1.0.1'
+    //引入J神的rxrelay2，出现异常仍然可以处理
+    implementation 'com.jakewharton.rxrelay2:rxrelay:2.0.0'
+    //方法数超出65535时拆包
+    api 'com.android.support:multidex:1.0.3'
 }
