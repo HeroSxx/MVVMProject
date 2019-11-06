@@ -1,7 +1,7 @@
 package com.example.myapplication.model
 
-import androidx.databinding.ObservableField
-import androidx.databinding.ObservableInt
+import android.databinding.ObservableField
+import android.databinding.ObservableInt
 
 data class UserModel(
     var name: ObservableField<String>,

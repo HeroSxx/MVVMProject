@@ -1,13 +1,14 @@
 package com.example.myapplication
 
+import android.databinding.DataBindingUtil
+import android.databinding.ObservableField
+import android.databinding.ObservableInt
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.view.View
-import androidx.appcompat.app.AppCompatActivity
-import androidx.databinding.DataBindingUtil
-import androidx.databinding.ObservableField
-import androidx.databinding.ObservableInt
 import com.example.myapplication.databinding.ActivityMainBinding
+
 import com.example.myapplication.model.UserModel
 
 class MainActivity : AppCompatActivity() {
@@ -21,10 +22,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun addAge(view: View) {
-//        activityMainBinding?.user?.age?.increment()
         var oldAge = activityMainBinding?.user?.age?.get()
+        activityMainBinding?.user?.age?.increment()
         Log.e("====  ", "$oldAge")
-        activityMainBinding?.user?.age?.set(oldAge!!.plus(1))
+//        activityMainBinding?.user?.age?.set(oldAge!!.plus(1))
     }
 
     fun ObservableInt.increment() {
