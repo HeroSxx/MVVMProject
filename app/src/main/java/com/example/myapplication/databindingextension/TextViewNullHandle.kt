@@ -1,8 +1,8 @@
 package com.example.myapplication.databindingextension
 
-import android.databinding.BindingAdapter
 import android.view.View
 import android.widget.TextView
+import android.databinding.BindingAdapter
 import com.example.myapplication.R
 
 object TextViewNullHandle {
