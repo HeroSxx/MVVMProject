@@ -7,7 +7,7 @@ import android.content.pm.PackageManager;
 import android.support.v4.app.ActivityCompat;
 import android.telephony.TelephonyManager;
 
-import static com.basemodule.util.StringUtils.TODO;
+import static com.example.networkmodule.util.StringUtils.TODO;
 
 
 public class PhoneInfo {

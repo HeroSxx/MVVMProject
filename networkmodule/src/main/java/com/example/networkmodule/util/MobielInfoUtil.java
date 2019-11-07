@@ -10,7 +10,7 @@ import android.util.Log;
 
 import java.util.UUID;
 
-import static com.basemodule.util.StringUtils.TODO;
+import static com.example.networkmodule.util.StringUtils.TODO;
 
 
 /**

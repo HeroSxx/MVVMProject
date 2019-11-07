@@ -2,11 +2,12 @@ package com.example.networkmodule.di.component;
 
 import android.content.Context;
 
-import com.basemodule.di.module.ApiModule;
-import com.basemodule.di.module.ApplicationModule;
-import com.basemodule.di.qualifier.ApplicationContext;
-import com.basemodule.util.SPUtils;
-import com.basemodule.util.ToastUtils;
+
+import com.example.networkmodule.di.module.ApiModule;
+import com.example.networkmodule.di.module.ApplicationModule;
+import com.example.networkmodule.di.qualifier.ApplicationContext;
+import com.example.networkmodule.util.SPUtils;
+import com.example.networkmodule.util.ToastUtils;
 
 import javax.inject.Singleton;
 

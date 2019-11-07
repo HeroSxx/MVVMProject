@@ -6,8 +6,8 @@ import android.support.multidex.MultiDex;
 
 import com.androidnetworking.AndroidNetworking;
 
-import com.bumptech.glide.request.target.ViewTarget;
 import com.example.networkmodule.di.component.ApplicationComponent;
+import com.example.networkmodule.di.component.DaggerApplicationComponent;
 import com.example.networkmodule.di.module.ApiModule;
 import com.example.networkmodule.di.module.ApplicationModule;
 

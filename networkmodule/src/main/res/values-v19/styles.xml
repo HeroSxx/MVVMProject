@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TranslucentTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <!--<item name="android:windowEnterAnimation">@anim/in_from_right</item>-->
+        <!--<item name="android:windowExitAnimation">@anim/out_to_left</item>-->
+    </style>
+
+    <style name="pop_menu_animation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/in_from_right</item>
+        <item name="android:windowExitAnimation">@anim/out_to_left</item>
+    </style>
+</resources>

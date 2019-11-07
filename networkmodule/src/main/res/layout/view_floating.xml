@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:id="@+id/rl_goto_buy_course_list"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:background="@drawable/bg_round_white_50dp"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:id="@+id/iv_cover"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:scaleType="fitXY"
+                android:src="@mipmap/icon_lessonforsingle_personalcenter" />
+
+            <TextView
+                android:id="@+id/tv_buy_list_count"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="6dp"
+                android:background="@drawable/bg_round_red"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxEms="2"
+                android:maxLines="1"
+                android:text="99"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:visibility="visible" />
+        </RelativeLayout>
+    </android.support.constraint.ConstraintLayout>
+
+</RelativeLayout>

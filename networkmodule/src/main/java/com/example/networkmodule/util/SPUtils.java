@@ -4,9 +4,9 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 
+import com.example.networkmodule.di.qualifier.ApplicationContext;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.basemodule.di.qualifier.ApplicationContext;
 
 import java.util.ArrayList;
 import java.util.HashSet;

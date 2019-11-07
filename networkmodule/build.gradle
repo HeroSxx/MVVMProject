@@ -69,10 +69,11 @@ dependencies {
         exclude group: 'com.android.support'
     }
     //glide图片加载库
-    api(rootProject.ext.dependencies.glide) {
-        exclude group: 'com.android.support'
-    }
     annotationProcessor rootProject.ext.dependencies["glide-compiler"]
+    api(rootProject.ext.dependencies["glide:okhttp3"])
+    api(rootProject.ext.dependencies["glide"])
+
+
     //recyclerview的databinding套装
     api(rootProject.ext.dependencies.bindingcollectionadapter) {
         exclude group: 'com.android.support'

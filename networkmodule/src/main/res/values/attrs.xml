@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SmallStar">
+        <attr name="starHeight" format="dimension" />
+        <attr name="starRes" format="reference" />
+        <attr name="starPadding" format="dimension" />
+        <attr name="starNum" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="ShadowRelativeLayout">
+        <attr name="shadow_color" format="color" />
+        <attr name="shadow_radius" format="dimension" />
+        <attr name="shadow_blur" format="dimension" />
+        <attr name="shadow_dx" format="dimension" />
+        <attr name="shadow_dy" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="VerificationCodeView">
+        <!--输入框的数量-->
+        <attr name="icv_et_number" format="integer" />
+        <!--输入框的宽度-->
+        <attr name="icv_et_width" format="dimension|reference" />
+        <!--输入框之间的分割线-->
+        <attr name="icv_et_divider_drawable" format="reference" />
+        <!--输入框文字颜色-->
+        <attr name="icv_et_text_color" format="color|reference" />
+        <!--输入框文字大小-->
+        <attr name="icv_et_text_size" format="dimension|reference" />
+        <!--输入框获取焦点时边框-->
+        <attr name="icv_et_bg_focus" format="reference" />
+        <!--输入框没有焦点时边框-->
+        <attr name="icv_et_bg_normal" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="AlignTextView">
+        <attr name="align">
+            <enum name="center" value="0" />
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="Captcha">
+        <attr name="src" format="reference" />
+        <attr name="progressDrawable" format="reference" />
+        <attr name="thumbDrawable" format="reference" />
+        <attr name="mode" format="enum">
+            <enum name="mode_bar" value="1" />
+            <enum name="mode_nonbar" value="2" />
+        </attr>
+        <attr name="max_fail_count" format="integer" />
+        <attr name="blockSize" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="VerticalBannerView">
+        <attr name="gap" format="integer" />
+        <attr name="animDuration" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="XBanner">
+        <attr name="isAutoPlay" format="boolean" />
+        <attr name="isHandLoop" format="boolean" />
+        <attr name="AutoPlayTime" format="integer|reference" />
+        <attr name="pointNormal" format="reference" />
+        <attr name="pointSelect" format="reference" />
+        <attr name="indicatorDrawable" format="reference" />
+        <attr name="pointsVisibility" format="boolean" />
+        <attr name="isTipsMarquee" format="boolean" />
+        <attr name="pointsPosition" format="enum">
+            <enum name="LEFT" value="0" />
+            <enum name="CENTER" value="1" />
+            <enum name="RIGHT" value="2" />
+        </attr>
+        <attr name="pointsContainerBackground" format="reference|color" />
+        <attr name="pointContainerPosition" format="enum">
+            <enum name="TOP" value="10" />
+            <enum name="BOTTOM" value="12" />
+        </attr>
+        <!-- 指示点容器左右内间距 -->
+        <attr name="pointContainerLeftRightPadding" format="dimension" />
+        <!-- 指示点上下内间距 -->
+        <attr name="pointTopBottomPadding" format="dimension" />
+        <!-- 指示点左右内间距 -->
+        <attr name="pointLeftRightPadding" format="dimension" />
+        <!-- 提示文案的文字颜色 -->
+        <attr name="tipTextColor" format="reference|color" />
+        <!-- 提示文案的文字大小 -->
+        <attr name="tipTextSize" format="dimension" />
+        <!--是否是数字指示器-->
+        <attr name="isShowNumberIndicator" format="boolean" />
+        <!-- 数字指示器背景 -->
+        <attr name="numberIndicatorBacgroud" format="reference" />
+        <!-- 当只有一页数据时是否显示指示器，默认值为false -->
+        <attr name="isShowIndicatorOnlyOne" format="boolean" />
+        <!-- 图片切换速度 -->
+        <attr name="pageChangeDuration" format="integer" />
+        <!--图片轮播框架展占位图-->
+        <attr name="placeholderDrawable" format="reference" />
+        <!--是否开启一屏显示多个模式 默认不开启-->
+        <attr name="isClipChildrenMode" format="boolean" />
+        <!--一屏显示多个左右间距-->
+        <attr name="clipChildrenLeftRightMargin" format="dimension" />
+        <!--一屏显示多个上下间距-->
+        <attr name="clipChildrenTopBottomMargin" format="dimension" />
+        <!--设置viewpager间距-->
+        <attr name="viewpagerMargin" format="dimension" />
+        <!--少于三张是否支持一屏多显模式-->
+        <attr name="isClipChildrenModeLessThree" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="labels_view">
+        <attr name="selectType" format="enum">
+            <enum name="NONE" value="1" />
+            <enum name="SINGLE" value="2" />
+            <enum name="SINGLE_IRREVOCABLY" value="3" />
+            <enum name="MULTI" value="4" />
+        </attr>
+        <attr name="maxSelect" format="integer" />
+        <attr name="maxLines" format="integer" />
+        <attr name="labelTextColor" format="reference|color" />
+        <attr name="labelTextSize" format="dimension" />
+        <attr name="labelTextPaddingLeft" format="dimension" />
+        <attr name="labelTextPaddingTop" format="dimension" />
+        <attr name="labelTextPaddingRight" format="dimension" />
+        <attr name="labelTextPaddingBottom" format="dimension" />
+        <attr name="lineMargin" format="dimension" />
+        <attr name="wordMargin" format="dimension" />
+        <attr name="labelBackground" format="reference|color" />
+    </declare-styleable>
+    <declare-styleable name="CollapsibleTextView">
+        <attr name="suffixColor" format="color" />
+        <attr name="collapsedLines" format="integer" />
+        <attr name="collapsedText" format="string" />
+        <attr name="expandedText" format="string" />
+        <attr name="suffixTrigger" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="RoundImageView">
+        <attr name="type" format="enum">
+            <enum name="circle" value="1" />
+            <enum name="round" value="2" />
+        </attr>
+        <attr name="radius" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="CustomImageView">
+        <attr name="radius_" format="dimension" />
+        <attr name="left_top_radius" format="dimension" />
+        <attr name="right_top_radius" format="dimension" />
+        <attr name="right_bottom_radius" format="dimension" />
+        <attr name="left_bottom_radius" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="pickerview">
+        <attr name="wheelview_gravity">
+            <enum name="center" value="17" />
+            <enum name="left" value="3" />
+            <enum name="right" value="5" />
+        </attr>
+        <attr name="wheelview_textSize" format="dimension" />
+        <attr name="wheelview_textColorOut" format="color" />
+        <attr name="wheelview_textColorCenter" format="color" />
+        <attr name="wheelview_dividerColor" format="color" />
+        <attr name="wheelview_lineSpacingMultiplier" format="float" />
+    </declare-styleable>
+</resources>

@@ -9,7 +9,6 @@ import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.umeng.commonsdk.debug.W;
 
 import java.io.File;
 import java.net.URISyntaxException;
