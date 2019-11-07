@@ -36,8 +36,6 @@ ext {
             "rxlifecycle-components"               : "com.trello.rxlifecycle2:rxlifecycle-components:2.2.2",
             //rxbinding
             "rxbinding"                            : "com.jakewharton.rxbinding2:rxbinding:2.1.1",
-//          //    cookie持久化
-            "PersistentCookieJar"                  : "com.github.franmontiel:PersistentCookieJar:v1.0.1",
             //rx 6.0权限请求
             "rxpermissions"                        : "com.tbruyelle.rxpermissions2:rxpermissions:0.9.4@aar",
             //network
@@ -63,6 +61,10 @@ ext {
 //           dagger2
             "dagger"                               : "com.google.dagger:dagger:2.17",
             "dagger-compiler"                      : "com.google.dagger:dagger-compiler:2.17",
+            //引入J神的rxrelay2，出现异常仍然可以处理
+            "rxrelay"                              : "com.jakewharton.rxrelay2:rxrelay:2.1.1",
+            //方法数超出65535时拆包
+            "multidex"                             : "com.android.support:multidex:1.0.3",
 
             //MVVMHabit
             "MVVMHabit"                            : "com.github.goldze:MVVMHabit:3.1.3",
