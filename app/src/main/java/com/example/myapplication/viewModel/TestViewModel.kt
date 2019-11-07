@@ -4,11 +4,12 @@ import android.arch.lifecycle.MutableLiveData
 import android.arch.lifecycle.ViewModel
 import android.arch.lifecycle.ViewModelProvider
 import android.util.Log
+import com.example.myapplication.model.CityModel
 
 
 class TestViewModel(private val key: String) : ViewModel() {
     val nameEvent = MutableLiveData<String>()
-//    val userLiveData = MutableLiveData<UserModel>()
+    val cityModel = MutableLiveData<CityModel>()
 
     init {
         Log.e("===TestViewModel===", key)

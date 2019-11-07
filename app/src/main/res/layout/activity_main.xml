@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
-        <import type="com.example.myapplication.model.UserModel" />
-
         <variable
             name="user"
-            type="UserModel" />
+            type="com.example.myapplication.model.UserModel" />
+        <variable
+            name="city"
+            type="com.example.myapplication.model.CityModel" />
     </data>
 
     <LinearLayout
@@ -21,14 +21,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="15dp"
+            android:padding="10dp"
             android:text="@{`用户名：`+user.name}" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/colorAccent"
-            android:padding="15dp"
+            android:padding="10dp"
             android:text="@{`性别：`+user.sex  }"
             hideIfNullValue="@{user.sex}"
             />
@@ -37,13 +37,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="addAge"
-            android:padding="15dp"
+            android:padding="10dp"
             android:text="@{`年龄点击+1：`+user.age}" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="addAge"
-            android:padding="15dp"
+            android:padding="10dp"
             android:text='@{user.sex==null ? user.name: "腾讯"}' />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="changeCity"
+            android:padding="10dp"
+            android:text='@{`点击切换城市：`+city.name}' />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text='@{`城市区号：`+city.code}' />
     </LinearLayout>
 </layout>
