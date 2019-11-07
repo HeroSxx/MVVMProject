@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun initDataBinding() {
         activityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-        userModel = UserModel(ObservableField("阿里"), null, ObservableInt(23))
+        userModel = UserModel(ObservableField("阿里"), null, ObservableInt(23),false)
         activityMainBinding.user = userModel
     }
 

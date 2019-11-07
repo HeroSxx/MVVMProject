@@ -38,6 +38,12 @@
             android:layout_height="wrap_content"
             android:onClick="addAge"
             android:padding="15dp"
-            android:text="@{`年龄：`+user.age}" />
+            android:text="@{`年龄点击+1：`+user.age}" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="addAge"
+            android:padding="15dp"
+            android:text='@{user.sex==null ? user.name: "腾讯"}' />
     </LinearLayout>
 </layout>
