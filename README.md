@@ -1,2 +1,7 @@
 # MVVMProject
-创建项目文件
+1.自建MVVM项目架构，使用LiveData+DataBinding+Dagger2+RxJava+Retrofit2等最新主流框架。
+2.原计划完全使用Kotlin编写，受限于当期Kotlin水平以及项目时间冲突等，决定网络架构沿用
+之前项目中使用成熟的Java编写的RxJava+Retrofit2架构。
+3.保留之前集成的MVP模式，计划使用MVVM但并不觉得一些很简单的页面也要MVVM模式，MVP编写
+速度快维护简单可靠的特性对一些简单页面更香。
+4.除保留的工具类以及网络相关代码是Java编写，其他的新代码尽量用kotlin编写。
