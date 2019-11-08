@@ -7,7 +7,7 @@
     android:layout_gravity="center_horizontal">
 
 
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.ConstraintLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true">
@@ -45,6 +45,6 @@
                 android:textSize="10sp"
                 android:visibility="visible" />
         </RelativeLayout>
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.ConstraintLayout>
 
 </RelativeLayout>

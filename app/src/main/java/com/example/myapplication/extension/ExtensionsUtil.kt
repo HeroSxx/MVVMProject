@@ -2,10 +2,10 @@ package com.example.myapplication.extension
 
 import android.app.Activity
 import android.content.Context
-import android.databinding.ObservableInt
-import android.support.v4.app.Fragment
+import androidx.databinding.ObservableInt
 import android.view.View
 import android.widget.Toast
+import androidx.fragment.app.Fragment
 
 /**
  * Created by xuhao on 2017/11/14.

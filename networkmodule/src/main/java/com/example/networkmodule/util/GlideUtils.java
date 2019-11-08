@@ -3,7 +3,6 @@ package com.example.networkmodule.util;
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
-import android.support.annotation.Nullable;
 import android.util.Log;
 import android.widget.ImageView;
 

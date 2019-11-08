@@ -1,8 +1,9 @@
 package com.example.networkmodule.util;
 
-import android.support.annotation.Nullable;
 import android.util.Log;
 import android.widget.TextView;
+
+import androidx.annotation.Nullable;
 
 import java.io.File;
 import java.math.BigDecimal;
